@@ -22,3 +22,9 @@ hugo new photos/hugo-dog.md
 hugo server -D
 
 hugo new second-page.md
+
+rm .\content\second-page.md
+
+hugo new second-page.md
+
+hugo new photos/photo-one.md
