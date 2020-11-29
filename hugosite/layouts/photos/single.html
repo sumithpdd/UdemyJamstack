@@ -2,7 +2,13 @@
 
 <main>
     <div class="post">
-        {{ partial "single/post-info.html" . }} {{ partial "single/title.html" . }} {{- if .Params.tags}} {{ partial "tags.html" .Params.tags }} {{- end}} {{ partial "single/header.html" . }}
+        TEST
+        <hr> {{ .Site.Title }}
+        <br> {{ .Site.BaseURL }}
+        <br> {{ .Site.Copyright }}
+        <br> {{- range .Site.Pages }} {{ .Title }}:{{ .URL }}<br> {{- end}}
+        <br>
+        <hr> {{ partial "single/post-info.html" . }} {{ partial "single/title.html" . }} {{- if .Params.tags}} {{ partial "tags.html" .Params.tags }} {{- end}} {{ partial "single/header.html" . }}
 
         <div style="padding: 1rem;background:powderblue ;">
             {{ .Content }}
