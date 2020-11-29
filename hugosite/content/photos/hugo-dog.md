@@ -2,6 +2,8 @@
 title: "Hugo Dog"
 date: 2020-11-29T18:45:00+01:00
 draft: true
+photoauthor: 'Sumith'
+tags: ['photo','dog','tongue']
 ---
 
 ## HUGO the Dog!
