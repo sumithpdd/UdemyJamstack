@@ -2,6 +2,8 @@
 
 <main>
     <div class="post">
+        {{ $myvariable := "A variable value" }}
+        <h3>{{ $myvariable }}</h3>
         TEST
         <hr> {{ .Site.Title }}
         <br> {{ .Site.BaseURL }}

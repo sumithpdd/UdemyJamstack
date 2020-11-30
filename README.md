@@ -28,3 +28,5 @@ rm .\content\second-page.md
 hugo new second-page.md
 
 hugo new photos/photo-one.md
+
+hugo new about.md
