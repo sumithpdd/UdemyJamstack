@@ -30,3 +30,6 @@ hugo new second-page.md
 hugo new photos/photo-one.md
 
 hugo new about.md
+
+## to run node server of API
+node .\api\contact.js
